@@ -1,0 +1,39 @@
+# =========================
+# Ambiente virtual
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Cache e arquivos do Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Arquivos de distribuição
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Ferramentas de teste
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDEs e editores
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
